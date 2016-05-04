@@ -8,7 +8,7 @@ response = ['okay','fine']
 random_response = random.choice(response)
 
 while True:
-	userInput = raw_input(">>>")
+	userInput = raw_input("@Lucy@:::")
 	if userInput in greetings:
 		g = random_greetings
 		print(g)
